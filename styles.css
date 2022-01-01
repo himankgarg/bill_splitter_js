@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(182, 177, 177);
+    font-family: "DM sans",sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    padding: .75rem;
+    width: 100%;
+    max-width: 425px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 7px 6px 46px 2px rgba(117,117,117,0.6);
+-webkit-box-shadow: 7px 6px 46px 2px rgba(117,117,117,0.6);
+-moz-box-shadow: 7px 6px 46px 2px rgba(117,117,117,0.6);
+}
+
+.card-image {
+    text-align: center;
+}
+
+.input {
+    outline: none;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #eee;
+    font-size: 1.125rem;
+    padding: 5px;
+}
+
+.card-form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 0;
+}
+
+#action-button {
+    border: 0;
+    background-color: purple;
+    color: white;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 1em;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#reset-button {
+    border: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.card-info {
+    padding: 1rem 1rem;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h2 {
+    color: purple;
+    font-size: x-large;
+}
+input{
+    border: 0 !important;
+}
+input:focus-visible{
+    outline: none;
+}
